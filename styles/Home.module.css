@@ -1,0 +1,45 @@
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1rem;
+  z-index: 1000;
+}
+.hero {
+  height: 100vh;
+  background: #ffeaf4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+.branchGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+.branchCard {
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.footer {
+  background: #d0026f;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
