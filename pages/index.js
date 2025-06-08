@@ -19,39 +19,26 @@ export default function Home() {
       </header>
 
       <section className={styles.hero}>
-        <Image src="/logo.png" alt="Dhahia Juice Logo" width={300} height={120} />
+        <Image src="/assets/hero.jpg" alt="Hero Image" width={1000} height={600} />
         <h1>Fresh Since 1977</h1>
-      </section>
-
-      <section className={styles.section}>
-        <h2>Our Legacy</h2>
-        <p>From the streets of Kuwait to the hearts of 15 neighborhoods in KSA — 47 years of juice mastery and pure fruit freshness.</p>
       </section>
 
       <section className={styles.section}>
         <h2>Signature Juices</h2>
         <div className={styles.grid}>
-          <Image src="/juices/juice1.jpg" alt="Juice 1" width={300} height={400} />
-          <Image src="/juices/juice2.jpg" alt="Juice 2" width={300} height={400} />
+          <Image src="/assets/juice1.jpg" alt="Juice 1" width={300} height={400} />
+          <Image src="/assets/juice2.jpg" alt="Juice 2" width={300} height={400} />
         </div>
       </section>
 
       <section className={styles.section} id="offers">
         <h2>Special Offers</h2>
-        <p>Limited-time blends and seasonal savings — check back often for what’s fresh!</p>
+        <Image src="/assets/offer.jpg" alt="Special Offer" width={700} height={400} />
       </section>
 
-      <section className={styles.section} id="branches">
-        <h2>Our Branches</h2>
-        <div className={styles.branchGrid}>
-          <div className={styles.branchCard}>
-            <Image src="/branches/branch1.jpg" alt="Al Malqa Branch" width={400} height={250} />
-            <h3>Al Malqa</h3>
-            <p><a href="https://maps.google.com">Google Maps</a></p>
-            <p>📞 +966 55 123 4567</p>
-            <button onClick={() => window.location.href='https://amrk-cloud.vercel.app/?brnid=Malqa123'}>Order from this Branch</button>
-          </div>
-        </div>
+      <section className={styles.section}>
+        <h2>Brand Highlight</h2>
+        <Image src="/assets/highlight.jpg" alt="Highlight" width={700} height={400} />
       </section>
 
       <footer className={styles.footer}>
